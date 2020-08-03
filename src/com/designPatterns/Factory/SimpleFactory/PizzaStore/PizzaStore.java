@@ -3,7 +3,7 @@ package com.designPatterns.Factory.SimpleFactory.PizzaStore;
 import com.designPatterns.Factory.SimpleFactory.Pizza.Pizza;
 
 /**
- * Here we are also doing dependency inversion principle instead PIzzaStore
+ * Here we are also doing dependency inversion principle instead PizzaStore
  * Depending on low level components Concrete Pizza's instead we used factory pattern
  * to depend
  */
