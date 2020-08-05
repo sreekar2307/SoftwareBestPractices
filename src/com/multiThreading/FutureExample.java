@@ -16,8 +16,8 @@ public class FutureExample {
             Thread.sleep(300);
         }
 
-        Integer result1 = future1.get();
-        Integer result2 = future2.get();
+        Integer result1 = future1.get(); // FutureInstance.get is a blocking method that means it will wait till the value
+        Integer result2 = future2.get(); // is available
 
         System.out.println(result1 + " and " + result2);
 
