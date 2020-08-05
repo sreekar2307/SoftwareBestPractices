@@ -5,8 +5,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * wait, will pause the calling thread
- * notify, randomly wakes up a thread which previously went in wait condition
+ * wait, will pause the current executing thread
+ * notify, randomly wakes up a thread which previously was paused by calling wait
  */
 public class WaitAndNotify {
     private static final Logger Log = Logger.getLogger(WaitAndNotify.class.getName());
